@@ -1,8 +1,8 @@
 version: '3.8'
 services:
-  mysql:
+  mysql_inventory_service:
     image: mysql:8.3.0
-    container_name: mysql
+    container_name: mysql_inventory_service
     environment:
       MYSQL_ROOT_PASSWORD: mysql
     ports:
